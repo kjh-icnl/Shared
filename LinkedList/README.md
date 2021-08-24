@@ -107,5 +107,45 @@ c
 [ ]
 ```
 
+### Help
+```python
+>>> from LinkedList import *
+>>> help(LinkedList)
+Help on class LinkedList in module LinkedList:
+
+class LinkedList(builtins.object)
+ |  LinkedList() -> None
+ |
+ |  Methods defined here:
+ |
+ |  __getitem__(self, p)
+ |
+ |  __init__(self) -> None
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |
+ |  __iter__(self)
+ |
+ |  __len__(self)
+ |
+ |  __repr__(self)
+ |      Return repr(self).
+ |
+ |  __setitem__(self, p, val)
+ |
+ |  clear(self)
+ |
+ |  insert(self, p, v)
+ |      insert the given value in pos-th index
+ |
+ |      (For example)
+ |      [Structure] a <--> b <--> c
+ |      A result of insert(1, d) is
+ |      [Structure] a <--> d <--> b <--> c
+ |
+ |      The values after pos-th index value are pushed by one index
+-- More --
+```
+
+
 # Issues
 If there is any issue, post your issue on the **Issues** section. I will try to find causes of the problems and resolve them.
