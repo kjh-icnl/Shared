@@ -1,6 +1,8 @@
 # Introduction
 Thank you for searching my implementation about Linked-List. This implementation is written by Python. However, I am getting ready to provide it of **C++** version and did not publish this implementation on **PyPI**. I will release it on PyPI soon. Thank you for waiting for it.
 
+***LinkedList.py*** has an ultimate implementation of the linked list. ***main.py*** has detailed examples of this implementation.
+
 # Requirements
 Python >= 3.7.x
 
